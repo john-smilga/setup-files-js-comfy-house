@@ -184,7 +184,6 @@ body {
   width: 100%;
   height: 100%;
   overflow: scroll;
-  background: var(--mainWhite);
   z-index: 3;
   background: rgb(231, 226, 221);
   padding: 1.5rem;
