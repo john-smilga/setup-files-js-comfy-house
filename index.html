@@ -1,14 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="main.css">
 </head>
+
 <body>
-    
+    <!-- nav -->
+    <nav class="navbar">
+        <div class="navbar-center">
+            <span class="nav-icon">
+                <i class="fas fa-bars"></i>
+            </span>
+            <img src="./images/logo.svg" alt="store logo">
+            <div class="cart-btn">
+                <span class="nav-icon">
+                    <i class="fas fa-cart-plus"></i>
+                </span>
+                <div class="cart-items">0</div>
+            </div>
+        </div>
+    </nav>
+<!-- nav of end -->
+<!-- hero -->
+<header class="hero">
+    <div class="bannner">
+        <h1 class="banner-title">furniture collection</h1>
+        <button class="banner-btn">shop now</button>
+    </div>
+</header>
+<!-- hero of end -->
+<!-- products -->
+<section class="products">
+    <div class="section-title">
+        <h2>our products</h2>
+        <div class="products-center">
+            <article class="product">
+                <div class="img-container">
+                    <img src="./images/product-1.jpeg" alt="product" class='product-img'>
+                    <button class="bag-btn" data-id='1'>
+                    <i class="fas fa-shopping-cart"></i>
+                    add to bag
+                    </button>
+                </div>
+                <h3>queen bed</h3>
+                <h4>$16</h4>
+            </article>
+        </div>
+    </div>
+</section>
+<!-- end of products -->
     <script src="app.js"></script>
 </body>
+
 </html>
