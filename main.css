@@ -128,11 +128,13 @@ body {
   padding: 0.5rem 0.75rem;
   letter-spacing: var(--mainSpacing);
   font-weight: bold;
+  /* transitionがあることですきなようにアニメーションさせられる */
   transition: var(--mainTransition);
   transform: translateX(101%);
   cursor: pointer;
 }
 .bag-btn:hover {
+  /* hoverした際の挙動 */
   color: var(--mainWhite);
 }
 .fa-shopping-cart {
@@ -145,6 +147,7 @@ body {
   display: block;
   width: 100%;
   min-height: 12rem;
+  opacity: 1;
   transition: var(--mainTransition);
 }
 .img-container:hover .product-img {
@@ -152,6 +155,7 @@ body {
 }
 
 .product h3 {
+  /* 単語の頭だけ大文字 */
   text-transform: capitalize;
   font-size: 1.1rem;
   margin-top: 1rem;
