@@ -53,10 +53,6 @@ class UI {
         productsDOM.innerHTML = result;
     }
 
-    getBagButtons() {
-        // TODO
-    }
-
     setCartValues(cart) {
         let tempTotal = 0;
         let itemsTotal = 0;
